@@ -1,0 +1,49 @@
+.navbar {
+	background-color: orange;
+	display: flex;
+}
+
+.navbar p {
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	flex: 1 1 0;
+	justify-content: space-around;
+}
+
+.content h1 {
+	width: 100%;
+	background-color: darksalmon;
+	justify-content: center;
+	display: flex;
+}
+
+.content p {
+	justify-content: flex-start;
+	width: 100%
+}
+
+.content {
+	background-color: darksalmon;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.news {
+	width: 30%;
+}
+
+#breaking {
+	flex-direction: column;
+	order: -1;
+	justify-content: center;
+	width: 33%;
+}
+
+#breaking h3 {
+	font-size: 50px;
+}
+	
